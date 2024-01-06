@@ -1,0 +1,71 @@
+.request {
+    padding: 20px;
+    border-top: 1px solid rgb(85, 85, 85);
+
+}
+
+.field {
+    padding-left: 15px;
+    margin: 5px 0;
+    height: 50px;
+    border-radius: 27px;
+    width: 98%;
+    box-sizing: border-box;
+}
+
+.half-field {
+    margin: 10px 0;
+    height: 50px;
+    border-radius: 27px;
+    width: 49%;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: rgb(168, 168, 168);
+
+}
+
+.button {
+    background-color: var(--main-color);
+    margin: 10px 0;
+    height: 50px;
+    border-radius: 27px;
+    width: 100%;
+    color: var(--second-color);
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+.timewrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+
+.title {
+    height: 20px;
+    padding-left: 25px;
+    font-size: 0.9em !important;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.meals {
+    border: solid 1px black;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid rgb(85, 85, 85);
+}
+
+
+.dish {
+    padding: 10px;
+    height: 50px;
+    border: solid 1px grey;
+}

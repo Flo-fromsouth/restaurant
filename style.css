@@ -1,0 +1,103 @@
+:root {
+    --main-color: #FFBE00;
+    --second-color: #031926;
+}
+
+body {
+    background-color: rgb(212, 212, 212);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    height: 1440px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    background-color: var(--second-color);
+    width: 5%;
+    height: 100%;
+    border-radius: 10px 0 0 0;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+}
+
+.menu-group {
+    width: 50px;
+}
+
+.icon-wrapper {
+    background-color: var(--main-color);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    text-align: center;
+    margin: 20px 0;
+    vertical-align: bottom;
+    /* vertical  centering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+    font-size: 30px !important;
+}
+
+.menu-link {
+    position: relative;
+    height: 220px;
+    width: 50px;
+}
+
+.menu-link-inner {
+    white-space: nowrap;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.rotate {
+    transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
+
+.main {
+    background-color: #FFFFFF;
+    width: 65%;
+}
+
+.sidebar {
+    background-color: var(--second-color);
+    width: 30%;
+    border-radius: 0 10px 0 0;
+}
+
+.title {
+    color: var(--second-color);
+}
+
+.title {
+    color: var(--second-color);
+}
